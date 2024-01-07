@@ -13,6 +13,9 @@
 		BCF69EE02B4A8C7A00413E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF69EDE2B4A8C7A00413E56 /* Main.storyboard */; };
 		BCF69EE22B4A8C7D00413E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF69EE12B4A8C7D00413E56 /* Assets.xcassets */; };
 		BCF69EE52B4A8C7D00413E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF69EE32B4A8C7D00413E56 /* LaunchScreen.storyboard */; };
+		BCF69EED2B4ACA4D00413E56 /* SKBoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF69EEC2B4ACA4D00413E56 /* SKBoostDelegate.swift */; };
+		BCF69EF12B4ACABA00413E56 /* HybridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF69EEF2B4ACABA00413E56 /* HybridViewController.swift */; };
+		BCF69EF22B4ACABA00413E56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF69EF02B4ACABA00413E56 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		BCF69EE12B4A8C7D00413E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF69EE42B4A8C7D00413E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCF69EE62B4A8C7D00413E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF69EEC2B4ACA4D00413E56 /* SKBoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKBoostDelegate.swift; sourceTree = "<group>"; };
+		BCF69EEF2B4ACABA00413E56 /* HybridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridViewController.swift; sourceTree = "<group>"; };
+		BCF69EF02B4ACABA00413E56 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F41A5B21436EB597A07D0109 /* Pods-FlutterIOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterIOSProject.release.xcconfig"; path = "Target Support Files/Pods-FlutterIOSProject/Pods-FlutterIOSProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,13 +76,24 @@
 			isa = PBXGroup;
 			children = (
 				BCF69ED82B4A8C7A00413E56 /* AppDelegate.swift */,
+				BCF69EEC2B4ACA4D00413E56 /* SKBoostDelegate.swift */,
 				BCF69EDC2B4A8C7A00413E56 /* ViewController.swift */,
+				BCF69EEE2B4ACABA00413E56 /* Controllers */,
 				BCF69EDE2B4A8C7A00413E56 /* Main.storyboard */,
 				BCF69EE12B4A8C7D00413E56 /* Assets.xcassets */,
 				BCF69EE32B4A8C7D00413E56 /* LaunchScreen.storyboard */,
 				BCF69EE62B4A8C7D00413E56 /* Info.plist */,
 			);
 			path = FlutterIOSProject;
+			sourceTree = "<group>";
+		};
+		BCF69EEE2B4ACABA00413E56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCF69EEF2B4ACABA00413E56 /* HybridViewController.swift */,
+				BCF69EF02B4ACABA00413E56 /* HomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C87DC7D85E297270FD5A2EA4 /* Pods */ = {
@@ -225,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF69EF22B4ACABA00413E56 /* HomeViewController.swift in Sources */,
 				BCF69EDD2B4A8C7A00413E56 /* ViewController.swift in Sources */,
+				BCF69EED2B4ACA4D00413E56 /* SKBoostDelegate.swift in Sources */,
+				BCF69EF12B4ACABA00413E56 /* HybridViewController.swift in Sources */,
 				BCF69ED92B4A8C7A00413E56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
